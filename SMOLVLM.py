@@ -13,14 +13,14 @@
 # limitations under the License.
 
 # /// script
-# dependencies = [
-#     "trl",
-#     "torch",
-#     "torchvision",
-#     "peft",
-#     "trackio",
-#     "kernels",
-# ]
+ dependencies = [
+     "trl",
+     "torch",
+     "torchvision",
+     "peft",
+     "trackio",
+     "kernels",
+ ]
 # ///
 
 """
