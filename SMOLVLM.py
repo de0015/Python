@@ -12,16 +12,17 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-/// script
- dependencies = [
-     "trl",
-     "torch",
-     "torchvision",
-     "peft",
-     "trackio",
-     "kernels",
- ]
-///
+# /// script
+# dependencies = [
+#     "torch",
+#     "torchvision",
+#     "trl",
+#     "peft",
+#     "trackio",
+#     "kernels",
+# ]
+# ///
+
 
 """
 # Full training
