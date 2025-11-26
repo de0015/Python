@@ -15,6 +15,8 @@
 # /// script
 # dependencies = [
 #     "trl",
+#     "torch",
+#     "torchvision",
 #     "peft",
 #     "trackio",
 #     "kernels",
