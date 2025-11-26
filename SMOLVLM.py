@@ -15,8 +15,6 @@
 # /// script
 # dependencies = [
 #     "trl",
-#     "torch",
-#     "torchvision",
 #     "peft",
 #     "trackio",
 #     "kernels",
@@ -69,7 +67,7 @@ import os
 
 from accelerate import logging
 from datasets import load_dataset
-from transformers import AutoConfig, AutoModelForCausalLM
+from transformers import AutoConfig, AutoModelForCausalLM, AutoProcessor, AutoModelForImageTextToText
 from transformers.models.auto.modeling_auto import MODEL_FOR_IMAGE_TEXT_TO_TEXT_MAPPING_NAMES
 
 from trl import (
