@@ -66,7 +66,6 @@ python trl/scripts/sft.py \
 
 import argparse
 import os
-import torchvision
 
 from accelerate import logging
 from datasets import load_dataset
