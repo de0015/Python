@@ -1,12 +1,14 @@
-# requires-python = ">=3.10"
+ # requires-python = ">=3.10"
 # dependencies = [
 #     "torch",
-#     "transformers",
+#    
+"transformers",
 #     "datasets",
 #     "peft",
 #     "trl",
 #     "accelerate",
-#     "bitsandbytes",
+#    
+"bitsandbytes",
 #     "huggingface_hub",
 # ]
 # ///
