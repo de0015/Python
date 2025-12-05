@@ -20,7 +20,7 @@ from trl import SFTTrainer, SFTConfig
 import os
 
 # Configuration
-MODEL_NAME = "mmistralai/Mistral-7B-Instruct-v0.3"
+MODEL_NAME = "mistralai/Mistral-7B-Instruct-v0.3"
 DATASET_NAME = "Firemedic15/conflict-analysis-combined"
 OUTPUT_MODEL = "Firemedic15/ministral-conflict-analyst"
 
